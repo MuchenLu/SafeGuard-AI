@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGuard AI - 第二屆 AI for a Better Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800">
+
+    <div class="bg-blue-900 text-blue-100 text-sm py-2 px-4 text-center">
+        第二屆 AI for a Better Future 人工智慧創新應用競賽 參賽作品
+    </div>
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center gap-2 text-blue-800">
+                    <i data-lucide="shield-alert" class="h-8 w-8"></i>
+                    <span class="font-bold text-xl tracking-wider">SafeGuard AI</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#value" class="text-slate-600 hover:text-blue-800 transition">系統價值</a>
+                    <a href="#features" class="text-slate-600 hover:text-blue-800 transition">運作機制</a>
+                    <a href="#video" class="text-slate-600 hover:text-blue-800 transition">影片展示</a>
+                    <a href="#team" class="text-slate-600 hover:text-blue-800 transition">關於團隊</a>
+                    <button class="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition shadow-sm">
+                        觀看系統展示
+                    </button>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-slate-600 focus:outline-none">
+                        <i data-lucide="menu" id="menu-icon" class="h-6 w-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#value" class="block px-3 py-2 text-slate-600 hover:bg-slate-50 rounded-md">系統價值</a>
+                <a href="#features" class="block px-3 py-2 text-slate-600 hover:bg-slate-50 rounded-md">運作機制</a>
+                <a href="#video" class="block px-3 py-2 text-slate-600 hover:bg-slate-50 rounded-md">影片展示</a>
+                <a href="#team" class="block px-3 py-2 text-slate-600 hover:bg-slate-50 rounded-md">關於團隊</a>
+                <button class="w-full text-left px-3 py-2 text-blue-600 font-medium hover:bg-slate-50 rounded-md">
+                    觀看系統展示
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-slate-900 to-blue-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 text-red-200 text-sm font-medium mb-6 border border-red-500/30">
+                    <i data-lucide="alert-triangle" class="h-4 w-4"></i>
+                    <span>多一份準備，少一分遺憾的安全防護網</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    防患未然，<br />
+                    <span class="text-blue-400">AI 輔助守護您的每一程</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
+                    捷運安全需要更主動的防護。我們為大眾運輸打造專屬的「預警系統」，在危機醞釀的初期就能及時察覺，將被動的「事後補救」化為積極的「事前預防」。
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#features" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition flex items-center justify-center gap-2 shadow-lg shadow-blue-500/30">
+                        了解系統運作
+                        <i data-lucide="chevron-right" class="h-5 w-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="value" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">突破傳統監視器限制，化被動紀錄為主動防護</h2>
+                <p class="text-slate-600 text-lg">
+                    傳統監視器多半用於事後調查，而 SafeGuard AI 能在異常發生當下立即發出提醒，不僅減輕站務人員的巡視壓力，更能實質保障乘客的安全。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="user-check" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">減輕站務人員監控壓力</h3>
+                    <p class="text-slate-600">
+                        AI 會自動過濾影像並標記出異常畫面，讓站務人員能將心力放在處理真正需要關注的事件上，降低長時間觀看螢幕的疲勞。
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="clock" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">爭取黃金應變時間</h3>
+                    <p class="text-slate-600">
+                        系統能在危險物品出現或異常行為發生的初期立即辨識，為現場乘客、站務與警消人員爭取最關鍵的數十秒反應時間。
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="shield-check" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">事前預防取代事後通報</h3>
+                    <p class="text-slate-600">
+                        有別於事故發生後才尋求協助的通報軟體，我們致力於在危機升級前主動介入，防範於未然，有效避免意外發生。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <div class="rounded-2xl shadow-xl overflow-hidden bg-white border border-slate-100">
+                        <img 
+                            src="./static/Concept.webp" 
+                            alt="運作機制示意圖" 
+                            class="w-full h-auto object-cover"
+                        />
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 space-y-8">
+                    <div>
+                        <h2 class="text-3xl font-bold text-slate-900 mb-4">雙重防護機制，精準辨識不誤報</h2>
+                        <p class="text-slate-600 text-lg">
+                            結合高效率的影像辨識與進階分析技術，確保每一次的警示都準確且值得信賴。
+                        </p>
+                    </div>
+                    
+                    <ul class="space-y-8">
+                        <li class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 mt-1 shadow-sm">
+                                <i data-lucide="eye" class="h-6 w-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 mb-2">快速辨識異常特徵</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    系統能即時分析畫面中的不尋常情況，例如晴天穿著雨衣、異常動作，或隨身攜帶危險物品時，會第一時間鎖定並發出警示。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center text-indigo-600 mt-1 shadow-sm">
+                                <i data-lucide="cpu" class="h-6 w-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 mb-2">交叉比對機制，降低誤判率</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    系統採用兩階段辨識：先快速篩選可疑目標，再透過進階模型進行深度驗證。層層把關確保警報的準確度，避免引起不必要的恐慌。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center text-emerald-600 mt-1 shadow-sm">
+                                <i data-lucide="smartphone" class="h-6 w-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 mb-2">結合行動裝置，即時發布預警</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    當站務人員確認異常狀況後，系統能迅速將警示訊息推播至乘客的手機中，讓大眾能在第一時間掌握資訊並採取避險行動。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">系統展示影片</h2>
+            <p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+                透過實際情境模擬，了解 SafeGuard AI 如何在危機發生的前一刻，成功辨識異常並發出預警，為大眾運輸爭取黃金應變時間。
+            </p>
+            
+            <div class="aspect-video bg-black rounded-2xl overflow-hidden relative shadow-2xl border border-slate-700 group cursor-pointer flex items-center justify-center">
+                <div class="absolute inset-0 opacity-60 bg-[url('https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center transition-opacity group-hover:opacity-40"></div>
+                
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="w-20 h-20 bg-blue-600/90 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-blue-500 transition-transform duration-300 group-hover:scale-110 shadow-lg shadow-blue-500/30">
+                        <i data-lucide="play-circle" class="h-10 w-10 text-white ml-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">關於提案團隊</h2>
+            <p class="text-slate-600 text-lg mb-10">
+                我們致力於運用尖端人工智慧技術，解決社會公共安全痛點，創造更美好的未來。
+            </p>
+            <div class="inline-flex flex-wrap justify-center gap-4 md:gap-8">
+                <div class="bg-slate-50 px-6 py-3 rounded-full border border-slate-200 shadow-sm font-medium text-slate-800">張景漢</div>
+                <div class="bg-slate-50 px-6 py-3 rounded-full border border-slate-200 shadow-sm font-medium text-slate-800">賴永來</div>
+                <div class="bg-slate-50 px-6 py-3 rounded-full border border-slate-200 shadow-sm font-medium text-slate-800">楊賀喬</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <i data-lucide="shield-alert" class="h-6 w-6 text-blue-500"></i>
+                <span class="font-bold text-xl text-white tracking-wider">SafeGuard AI</span>
+            </div>
+            <div class="text-sm text-center md:text-right">
+                <p class="mb-2">第二屆 AI for a Better Future 人工智慧創新應用競賽</p>
+                <p>&copy; <span id="year"></span> 參賽作品. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 初始化 Lucide 圖示
+        lucide.createIcons();
+
+        // 處理手機版選單切換
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('hidden');
+            // 切換圖示 (menu / x)
+            menuIcon.setAttribute('data-lucide', isOpen ? 'menu' : 'x');
+            lucide.createIcons();
+        });
+
+        // 點擊選單連結後自動關閉手機選單
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            });
+        });
+
+        // 設定年份
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
