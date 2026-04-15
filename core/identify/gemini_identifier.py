@@ -1,3 +1,8 @@
+'''
+.core.indentify.gemini_identifier
+用於以 Gemini 深入分析影像，以避免誤報
+'''
+
 from google import genai
 from google.genai import types
 from PIL import Image

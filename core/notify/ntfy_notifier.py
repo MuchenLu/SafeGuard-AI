@@ -1,3 +1,8 @@
+'''
+.core.notify.ntfy_notifier
+用於於特定人員確認後，發送廣播給民眾
+'''
+
 import requests
 
 def send_notification(title: str, message: str) :

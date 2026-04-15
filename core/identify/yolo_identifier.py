@@ -1,7 +1,12 @@
+'''
+.core.indentify.yolo_identifier
+用於以 YOLO 進行物件與動作辨識
+'''
+
 import time
 from ultralytics import YOLO
-from models.notifier import send_notification
-from models.analyzer import ai_analyze
+from core.notifier import send_notification
+from core.analyzer import ai_analyze
 
 last_notif_time = 0
 

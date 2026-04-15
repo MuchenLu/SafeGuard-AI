@@ -1,4 +1,4 @@
-from models.detector import detect
+from core.detector import detect
 
 def main() :
     try :
