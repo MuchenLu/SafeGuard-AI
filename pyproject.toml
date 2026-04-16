@@ -2,13 +2,21 @@
 name = "SafeGuard"
 version = "0.1.0"
 description = "這是參加 AI For A Better Future 競賽的專案，旨在開發一個安全防護系統，利用人工智慧技術來預測和防止潛在的安全威脅。"
+authors = ["賴永來", "楊賀喬", "張景漢"]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "asyncio>=4.0.0",
+    "av>=17.0.0",
     "dotenv>=0.9.9",
     "google-genai>=1.72.0",
+    "line-bot-sdk>=3.23.0",
+    "onvif-zeep>=0.2.12",
     "opencv-python>=4.13.0.92",
+    "psycopg2-binary>=2.9.11",
     "pydantic>=2.12.5",
+    "pyyaml>=6.0.3",
+    "redis>=7.4.0",
     "requests>=2.33.1",
     "ultralytics>=8.4.37",
 ]

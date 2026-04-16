@@ -1,0 +1,8 @@
+station_config:
+  name: "" # 設定站名稱
+
+camera_config:
+  id: "" # 設定攝影機 ID
+
+running_config:
+  mode: "development" # 設定運行模式，選項有 "production" 或 "development"

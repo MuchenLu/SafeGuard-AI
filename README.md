@@ -14,7 +14,8 @@
 - 影像辨識與偵數控制：PyAV
 - 影像讀取：Python-ONVIF
 3. AI 辨識
-- 物件辨識與動作辨識：YOLOv11
+- 物件辨識：YOLOv11
+- 動作辨識：YOLOv11-pose
 - 隱私保護：YOLOv11-face
 - 雲端驗證：google-genai
 4. 公共廣播
@@ -23,6 +24,9 @@
 5. 資料庫儲存
 - 持久化資料庫：PostgreSQL
 - 快取資料庫：Redis
+6. 多執行續
+- 並進處理：threading
+- 非同步處理：asyncio
 
 ## 專案檔案架構
 ```
