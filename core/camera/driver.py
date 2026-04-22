@@ -12,6 +12,7 @@ import threading
 
 from models.video import VideoInfo
 
+# 定義攝影機物件（提供本機攝影機與 IP 攝影機兩方式）
 class Camera :
     def __init__(self, type: Literal["IP", "USB"], **kwargs) :
         self.fps = 1
@@ -19,6 +20,7 @@ class Camera :
         if type == "USB":
             self.camera = cv2.VideoCapture(0)
         elif type == "IP":
+            # 透過 ONVIF 協定取得 IP 攝影機的串流 URL
             ip = kwargs.get("ip")
             port = kwargs.get("port")
             username = kwargs.get("username")
